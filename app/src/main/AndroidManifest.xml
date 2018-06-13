@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.jimmy.summer2018">
+    package="com.example.jsand.jsanders22ex">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.jimmy.summer20182.activity.ViewPagerActivity" />
+        <activity android:name="com.example.jimmy.summer20182.activity.LaunchModeActivity" />
+        <activity
+            android:name="com.example.jimmy.summer20182.activity.StandardActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name="com.example.jimmy.summer20182.activity.SingleInstanceActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.jimmy.summer20182.activity.SingleTaskActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.jimmy.summer20182.activity.SingleTopActivity"
+            android:launchMode="singleTop" />
+        <activity android:name="com.example.jimmy.summer20182.activity.NinePatchActivity"></activity>
     </application>
 
 </manifest>
